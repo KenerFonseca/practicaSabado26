@@ -55,4 +55,20 @@ else "no es mayor"
         "Domingo"-> println("Hoy es ${diaDelaSemana}")
         else -> println("Incorrecto....")
     }
+
+    // FOR
+
+    for (n in 'a'..'z')
+    {
+        println("$n" )
+    }
+
+
+    var MisNumerosDeLaSuerte = arrayOf(1,2,3,4,5)
+
+    for (elemn in MisNumerosDeLaSuerte){
+        println("Los elementos : $elemn")
+    }
+
+
 }
