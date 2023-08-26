@@ -1,23 +1,25 @@
 fun main(args: Array<String>) {
 
-
-    val nuevo:ArrayList<Any> = ArrayList()
-
-    for (d in 1..2)
+   var edad =18
+    if (edad >  18)
     {
-        println("Ingrese numero")
-        var numero = readln()
-        var numero2 = 2
-
-
-        var result = numero + numero2
-
-        nuevo.add(result)
+        println("mayor")
+    }else{
+        println("no es mayor")
     }
 
-    for (d in 0 until nuevo.size)
-    {
-        println("$d numero: ${nuevo.get(d)}")
-    }
+var msj = if(edad>18)
+    "mayor"
+else "no es mayor"
 
+
+    //OPERADORES LOGICOS
+    //< > >= <= == != ?:
+    //operador elvis ?:
+
+    var x = null
+    var y = 20
+    var z = x ?: y //operacion de elvis Importante
+
+    println(z)
 }
