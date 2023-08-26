@@ -76,4 +76,12 @@ else "no es mayor"
     }
 
 
+    for (n in 'f' downTo 'a'){
+        println("$n ___")
+    }
+
+    for (n in 'a' until 'f')
+    {
+        println("$n ----------")
+    }
 }
