@@ -84,4 +84,13 @@ else "no es mayor"
     {
         println("$n ----------")
     }
+
+
+    var cantidad= 5
+
+    while (cantidad <= 5)
+    {
+        println(cantidad)
+        cantidad++
+    }
 }
