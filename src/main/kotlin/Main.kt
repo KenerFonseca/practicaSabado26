@@ -1,3 +1,6 @@
+import java.text.SimpleDateFormat
+import java.util.Date
+
 fun main(args: Array<String>) {
 
    var edad =18
@@ -22,4 +25,34 @@ else "no es mayor"
     var z = x ?: y //operacion de elvis Importante
 
     println(z)
+    println("-----------")
+
+    //&& 12 ||
+
+    var tienePermiso = true
+
+    if (( edad> 18 ||  tienePermiso))
+    {
+        println("Puede ir a la fiesta")
+    }
+    else
+    {
+        println("no puede ir a la fiestaa")
+    }
+    var dateF = SimpleDateFormat("EEEE" )
+    var fechaActual = Date()
+    var diaDelaSemana = dateF.format(fechaActual)
+    println(diaDelaSemana)
+
+    when(diaDelaSemana)
+    {
+        "lunes"-> println("Hoy es ${diaDelaSemana}")
+        "Martes"-> println("Hoy es ${diaDelaSemana}")
+        "Miercoes"-> println("Hoy es ${diaDelaSemana}")
+        "Jueves"-> println("Hoy es ${diaDelaSemana}")
+        "Viernes"-> println("Hoy es ${diaDelaSemana}")
+        "Sabado"-> println("Hoy es ${diaDelaSemana}")
+        "Domingo"-> println("Hoy es ${diaDelaSemana}")
+        else -> println("Incorrecto...")
+    }
 }
