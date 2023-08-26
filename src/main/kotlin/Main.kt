@@ -82,15 +82,28 @@ else "no es mayor"
 
     for (n in 'a' until 'f')
     {
-        println("$n ----------")
+        println("$n ------------")
     }
 
 
-    var cantidad= 5
+    var cantidad= 6
 
-    while (cantidad <= 5)
+    while (cantidad <= 6)
     {
         println(cantidad)
         cantidad++
     }
+
+
+    do {
+        println("¿cuantos dias tinee la semana?")
+        println("a. 5 dias")
+        println("b. 10 dias")
+        println("c. 7 dias")
+        println("Ingrese la respuesta")
+        val res = readLine()
+
+
+
+    }while (res != "c")
 }
