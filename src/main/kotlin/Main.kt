@@ -53,6 +53,6 @@ else "no es mayor"
         "Viernes"-> println("Hoy es ${diaDelaSemana}")
         "Sabado"-> println("Hoy es ${diaDelaSemana}")
         "Domingo"-> println("Hoy es ${diaDelaSemana}")
-        else -> println("Incorrecto...")
+        else -> println("Incorrecto....")
     }
 }
