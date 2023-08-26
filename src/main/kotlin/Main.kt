@@ -106,4 +106,5 @@ else "no es mayor"
 
 
     }while (res != "c")
+    println("que pro...te ganaste un taquis")
 }
