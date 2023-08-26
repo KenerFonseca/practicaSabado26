@@ -63,6 +63,11 @@ else "no es mayor"
         println("$n" )
     }
 
+    for (n in 'a'..'z' step 6)
+    {
+        println("$n" )
+    }
+
 
     var MisNumerosDeLaSuerte = arrayOf(1,2,3,4,5)
 
